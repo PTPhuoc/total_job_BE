@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }} - FUJobs</title>
+</head>
+
+<body style="margin:0; padding:0; background:#D7F0FF; font-family:'Smooch Sans', Arial, sans-serif;">
+
+<table width="100%" cellpadding="0" cellspacing="0" style="padding:40px 0;">
+    <tr>
+        <td align="center">
+
+            <table width="600" cellpadding="0" cellspacing="0"
+                   style="background:white; border-radius:10px; overflow:hidden;">
+
+                <!-- HEADER -->
+                <tr>
+                    <td style="background:#009DFF; padding:20px;">
+                        <a href="https://localhost:3000"
+                           style="font-size:40px; color:white; text-decoration:none; font-weight:bold;">
+                            FUJobs
+                        </a>
+                    </td>
+                </tr>
+
+                <!-- CONTENT -->
+                <tr>
+                    <td style="padding:20px; color:#01215C; font-size:20px;">
+                        <h2 style="margin:0 0 20px 0; color:#01215C;">{{ title }}</h2>
+
+                        <p>Xin chào <strong>{{ username }}</strong>,</p>
+
+                        <p style="white-space:pre-line; line-height:1.4; margin:20px 0;">
+                            {{ message }}
+                        </p>
+
+                        <p>Nếu bạn cần thêm thông tin, vui lòng liên hệ đội ngũ hỗ trợ FUJobs.</p>
+                    </td>
+                </tr>
+
+                <!-- FOOTER -->
+                <tr>
+                    <td style="background:#6D7E9D; padding:20px;">
+                        <span style="color:white; font-weight:bold;">
+                            © {{ year }} FUJobs. Mọi quyền được bảo lưu.
+                        </span>
+                    </td>
+                </tr>
+
+            </table>
+
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký tài khoản - FUJobs</title>
+</head>
+<body style="margin:0; padding:0; background:#D7F0FF; font-family:'Smooch Sans', Arial, sans-serif;">
+
+<table width="100%" cellpadding="0" cellspacing="0" style="padding:40px 0;">
+<tr>
+<td align="center">
+
+<table width="600" cellpadding="0" cellspacing="0"
+       style="background:white; border-radius:10px; overflow:hidden;">
+
+    <!-- HEADER -->
+    <tr>
+        <td style="background:#009DFF; padding:20px;">
+            <a href="https://localhost:3000"
+               style="font-size:40px; text-decoration:none; color:white; font-weight:bold;">
+                FUJobs
+            </a>
+        </td>
+    </tr>
+
+    <!-- CONTENT -->
+    <tr>
+        <td style="padding:20px; font-size:20px; color:#01215C;">
+            <h2 style="margin:0 0 20px 0;">Chào mừng bạn đến với FUJobs!</h2>
+
+            <p>Xin chào <strong>{{ username }}</strong>,</p>
+
+            <p>Cảm ơn bạn đã đăng ký tài khoản trên <strong>FUJobs</strong>.</p>
+
+            <p style="margin:30px 0;">
+                Mã xác minh của bạn là:<br>
+                <strong style="font-size:28px; letter-spacing:2px;">{{ code }}</strong>
+            </p>
+
+            <p>Vui lòng sử dụng mã này để hoàn tất quá trình đăng ký.</p>
+            <p>Nếu bạn không yêu cầu hành động này, vui lòng bỏ qua email.</p>
+        </td>
+    </tr>
+
+    <!-- FOOTER -->
+    <tr>
+        <td style="background:#6D7E9D; padding:20px;">
+            <span style="color:white; font-weight:bold;">
+                © {{ year }} FUJobs. Mọi quyền được bảo lưu.
+            </span>
+        </td>
+    </tr>
+
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>

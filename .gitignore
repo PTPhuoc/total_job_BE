@@ -1,0 +1,25 @@
+# Media
+media/*
+!media/.gitkeep
+
+# Data model ML
+data_ml/*
+!data_ml/.gitkeep
+
+downloaded_files/
+
+# Virtual Environment
+.venv/
+venv/
+
+# Python / Django
+__pycache__/
+*.pyc
+*.pyo
+
+# Testing
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
