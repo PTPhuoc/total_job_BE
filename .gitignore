@@ -3,8 +3,7 @@ media/*
 !media/.gitkeep
 
 # Data model ML
-data_ml/*
-!data_ml/.gitkeep
+data_ml/sentence_finetuned
 
 downloaded_files/
 
